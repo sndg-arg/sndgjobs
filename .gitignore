@@ -1,7 +1,10 @@
 # dev directories
 dbs/* # databases for development
 dbs
-
+js/node_modules/
+js/bundle.js
+js/package-lock.json
+static
 # Created by https://www.toptal.com/developers/gitignore/api/eclipse,intellij+all,intellij+iml,python,gradle,django
 # Edit at https://www.toptal.com/developers/gitignore?templates=eclipse,intellij+all,intellij+iml,python,gradle,django
 
@@ -496,3 +499,8 @@ gradle-app.setting
 *.hprof
 
 # End of https://www.toptal.com/developers/gitignore/api/eclipse,intellij+all,intellij+iml,python,gradle,django
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
